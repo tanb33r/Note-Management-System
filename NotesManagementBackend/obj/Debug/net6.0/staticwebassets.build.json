@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BTrbFjjDtT9vln5kjAVrwu+vXsLegDHczbwpHm4ucL8=",
+  "Source": "NotesManagementBackend",
+  "BasePath": "_content/NotesManagementBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

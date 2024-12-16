@@ -1,0 +1,31 @@
+/* app.component.css */
+
+/* Basic layout for the app */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #007bff;
+  }
+  
+  /* Center the content */
+  .router-outlet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  

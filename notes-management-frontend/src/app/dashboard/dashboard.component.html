@@ -1,0 +1,48 @@
+<div class="dashboard-container">
+    <h2>Notes Dashboard</h2>
+    
+    <!-- Notes List -->
+    <div *ngFor="let note of notes" class="note">
+      <h4>{{ note.type }}</h4>
+      <p>{{ note.content }}</p>
+      <p *ngIf="note.reminder">Reminder: {{ note.reminder | date:'short' }}</p>
+      <p *ngIf="note.dueDate">Due Date: {{ note.dueDate | date:'short' }}</p>
+      <p *ngIf="note.type === 'ToDo'">Completed: {{ note.isCompleted ? 'Yes' : 'No' }}</p>
+      <p *ngIf="note.type === 'Bookmark'">
+        <a [href]="note.content" target="_blank">Visit Bookmark</a>
+      </p>
+    </div>
+    
+    <!-- Add New Note Form -->
+    <form (ngSubmit)="addNote()" #noteForm="ngForm" class="add-note-form">
+      <h3>Add a New Note</h3>
+      
+      <label for="type">Type</label>
+      <select id="type" [(ngModel)]="newNote.type" name="type" required>
+        <option value="Regular Note">Regular Note</option>
+        <option value="Reminder">Reminder</option>
+        <option value="ToDo">ToDo</option>
+        <option value="Bookmark">Bookmark</option>
+      </select>
+      
+      <label for="content">Content</label>
+      <input type="text" id="content" [(ngModel)]="newNote.content" name="content" maxlength="100" required />
+      
+      <div *ngIf="newNote.type === 'Reminder'">
+        <label for="reminder">Reminder (Date + Time)</label>
+        <input type="datetime-local" id="reminder" [(ngModel)]="newNote.reminder" name="reminder" />
+      </div>
+      
+      <div *ngIf="newNote.type === 'ToDo'">
+        <label for="dueDate">Due Date (Date + Time)</label>
+        <input type="datetime-local" id="dueDate" [(ngModel)]="newNote.dueDate" name="dueDate" />
+        
+        <label>
+          <input type="checkbox" [(ngModel)]="newNote.isCompleted" name="isCompleted" /> Completed
+        </label>
+      </div>
+      
+      <button type="submit" class="btn btn-primary" [disabled]="!noteForm.valid">Add Note</button>
+    </form>
+  </div>
+  
