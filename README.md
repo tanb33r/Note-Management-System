@@ -62,7 +62,7 @@ The Angular frontend is structured as follows:
    ```bash
    git clone https://github.com/yourusername/Note-Management.git
 
-    Navigate to the backend folder:
+   Navigate to the backend folder:
 
 cd NotesManagementBackend
 
@@ -84,7 +84,8 @@ cd notes-management-frontend
 
 Install the required dependencies:
 
-npm install
+    npm install
+
 
 Run the Angular frontend:
 
