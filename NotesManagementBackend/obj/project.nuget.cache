@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IvyYcaMibscyzdWTSEt8OarsKO0xcREplIVJ0v345r4YFThJ3QFKOM7g7BT0am3dwvgkHz9Pv91iEw9hFh1VPQ==",
+  "dgSpecHash": "DD3PjLoD2Pa08TNy5eRSS5qh0PwRrZEoo4wyX86cVSohvjS9uEglTkVxLws6OaLp4JUs8xXc3mDg0uGWOX6yXw==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Note Management\\NotesManagementBackend\\NotesManagementBackend.csproj",
+  "projectFilePath": "D:\\Projects\\todo\\Note-Management-System\\NotesManagementBackend\\NotesManagementBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tanvirtaher\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\tanvirtaher\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",

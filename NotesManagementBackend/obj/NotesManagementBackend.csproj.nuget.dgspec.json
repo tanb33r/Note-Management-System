@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Note Management\\NotesManagementBackend\\NotesManagementBackend.csproj": {}
+    "D:\\Projects\\todo\\Note-Management-System\\NotesManagementBackend\\NotesManagementBackend.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Note Management\\NotesManagementBackend\\NotesManagementBackend.csproj": {
+    "D:\\Projects\\todo\\Note-Management-System\\NotesManagementBackend\\NotesManagementBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Note Management\\NotesManagementBackend\\NotesManagementBackend.csproj",
+        "projectUniqueName": "D:\\Projects\\todo\\Note-Management-System\\NotesManagementBackend\\NotesManagementBackend.csproj",
         "projectName": "NotesManagementBackend",
-        "projectPath": "D:\\Projects\\Note Management\\NotesManagementBackend\\NotesManagementBackend.csproj",
+        "projectPath": "D:\\Projects\\todo\\Note-Management-System\\NotesManagementBackend\\NotesManagementBackend.csproj",
         "packagesPath": "C:\\Users\\tanvirtaher\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Note Management\\NotesManagementBackend\\obj\\",
+        "outputPath": "D:\\Projects\\todo\\Note-Management-System\\NotesManagementBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tanvirtaher\\AppData\\Roaming\\NuGet\\NuGet.Config",

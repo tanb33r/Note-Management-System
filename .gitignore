@@ -2,3 +2,4 @@ notes-management-frontend/node_modules/
 notes-management-frontend/.angular/
 
 /NotesManagementBackend/.vs
+*.v2
