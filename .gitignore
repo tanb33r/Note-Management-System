@@ -4,3 +4,4 @@ notes-management-frontend/.angular/
 /NotesManagementBackend/.vs
 *.v2
 /NotesManagementBackend/obj
+/NotesManagementBackend/bin

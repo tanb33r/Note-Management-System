@@ -24,6 +24,7 @@
     "@angular/router": "^18.2.13",
     "@angular/ssr": "^18.2.9",
     "@auth0/angular-jwt": "^5.2.0",
+    "@microsoft/signalr": "^8.0.7",
     "bootstrap": "^5.3.3",
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
